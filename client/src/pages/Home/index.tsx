@@ -15,7 +15,7 @@ export const Home = () => {
     setLoading(true)
 
     try {
-      const response = await fetch(ApiEndpoint.createGift, {
+      const response = await fetch(ApiEndpoint.SAVED_GIFTS_URL, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

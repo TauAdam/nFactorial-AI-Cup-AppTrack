@@ -19,7 +19,7 @@ export const GiftPage: React.FC = () => {
       try {
         const userPrompt = `give me 1 personalized gift idea for the ${form.prompt} . write 2 sentences, splitted by dot , 1 gift name, 2 gift description`
         setGeneratingIdea(true)
-        const response = await fetch(ApiEndpoint.giftIdea, {
+        const response = await fetch(ApiEndpoint.GIFT_URL, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ export const GiftPage: React.FC = () => {
     if (form.prompt && form.idea) {
       setSaving(true)
       try {
-        const response = await fetch(ApiEndpoint.createGift, {
+        const response = await fetch(ApiEndpoint.SAVED_GIFTS_URL, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

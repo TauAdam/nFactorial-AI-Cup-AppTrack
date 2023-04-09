@@ -17,6 +17,6 @@ export interface ICard {
 }
 
 export enum ApiEndpoint {
-  giftIdea = 'https://nfactorial-ai-cup-apptrack-production.up.railway.app/api/v1/openai',
-  createGift = 'https://nfactorial-ai-cup-apptrack-production.up.railway.app/api/v1/gift',
+  GIFT_URL = 'https://syilik.onrender.com/api/v1/openai',
+  SAVED_GIFTS_URL = 'https://syilik.onrender.com/api/v1/gift',
 }

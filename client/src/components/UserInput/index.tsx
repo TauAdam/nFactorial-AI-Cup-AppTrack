@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface FormFieldProps {
+interface InputFieldProps {
   labelName: string
   type: string
   name: string
@@ -11,7 +11,7 @@ interface FormFieldProps {
   handleAdditionalButton?: () => void
 }
 
-export const InputField: React.FC<FormFieldProps> = ({
+export const InputField: React.FC<InputFieldProps> = ({
   labelName,
   type,
   name,
