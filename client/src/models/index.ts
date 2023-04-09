@@ -17,6 +17,6 @@ export interface ICard {
 }
 
 export enum ApiEndpoint {
-  giftIdea = 'http://localhost:8080/api/v1/openai',
-  createGift = 'http://localhost:8080/api/v1/gift',
+  giftIdea = 'https://nfactorial-ai-cup-apptrack-production.up.railway.app/api/v1/openai',
+  createGift = 'https://nfactorial-ai-cup-apptrack-production.up.railway.app/api/v1/gift',
 }
