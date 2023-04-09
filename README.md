@@ -1,9 +1,9 @@
 # nFactorial-AI-Cup-AppTrack
 
-## < Your Name >
+## Miras
 
 
-## < Your App's Name >
+## Syilik
 
 
 ## Typeform to submit:
